@@ -1,0 +1,18 @@
+
+div#gameBox {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: darkslategray;
+    max-width: 640px;
+    aspect-ratio: 1 / 1;
+}
+
+div#gameSquare {
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 0.5px;
+    flex-basis: calc(100% / 16);
+    box-sizing: border-box;
+}
+
