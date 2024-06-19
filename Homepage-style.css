@@ -12,7 +12,14 @@ div#gameSquare {
     border-style: solid;
     border-color: darkslategray;
     border-width: 0.5px;
-    flex-basis: calc(100% / 16);
+    
     box-sizing: border-box;
 }
 
+div#spacer {
+    height: 20px;
+}
+
+.highlight {
+    background-color: black;
+}
